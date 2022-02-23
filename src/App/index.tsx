@@ -1,6 +1,9 @@
 import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import logo from '../logo.svg'
+import './style.css'
+
+// import other components
+import Banner from '../components/Banner/index'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Banner />
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
