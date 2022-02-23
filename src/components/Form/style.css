@@ -1,0 +1,11 @@
+.logNewApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+label, .submit {
+    margin-top: 1em;
+}
