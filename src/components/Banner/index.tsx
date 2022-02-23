@@ -2,7 +2,9 @@ import './style.css'
 
 const Banner = () => {
     return(
-        <h1>Banner</h1>
+        <header className="Banner">
+            <h1>Banner</h1>
+        </header>
     )
 }
 
