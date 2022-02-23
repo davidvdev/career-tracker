@@ -6,6 +6,11 @@
     width: 80%;
 }
 
+textarea {
+    resize: vertical;
+    min-width: inherit;
+}
+
 label, .submit {
     margin-top: 1em;
 }
